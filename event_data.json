@@ -1,0 +1,87 @@
+{
+    "resource": "/devices",
+    "path": "/devices",
+    "httpMethod": "POST",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Content-Type": "application/json",
+      "Host": "ddgcc2nm2i.execute-api.ap-south-1.amazonaws.com",
+      "Postman-Token": "dba1bff6-b1cd-4ba9-aae8-7913c3051c64",
+      "User-Agent": "PostmanRuntime/7.39.0",
+      "X-Amzn-Trace-Id": "Root=1-6690fb67-250eb02643cfa6aa35d7fd1c",
+      "X-Forwarded-For": "196.1.1.6",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+      "Accept": [
+        "*/*"
+      ],
+      "Accept-Encoding": [
+        "gzip, deflate, br"
+      ],
+      "Content-Type": [
+        "application/json"
+      ],
+      "Host": [
+        "ddgcc2nm2i.execute-api.ap-south-1.amazonaws.com"
+      ],
+      "Postman-Token": [
+        "dba1bff6-b1cd-4ba9-aae8-7913c3051c64"
+      ],
+      "User-Agent": [
+        "PostmanRuntime/7.39.0"
+      ],
+      "X-Amzn-Trace-Id": [
+        "Root=1-6690fb67-250eb02643cfa6aa35d7fd1c"
+      ],
+      "X-Forwarded-For": [
+        "196.1.1.6"
+      ],
+      "X-Forwarded-Port": [
+        "443"
+      ],
+      "X-Forwarded-Proto": [
+        "https"
+      ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+      "resourceId": "zrzykg",
+      "resourcePath": "/devices",
+      "httpMethod": "POST",
+      "extendedRequestId": "ayw4SHPBhcwEb4Q=",
+      "requestTime": "12/Jul/2024:09:46:15 +0000",
+      "path": "/diot/devices",
+      "accountId": "730335289644",
+      "protocol": "HTTP/1.1",
+      "stage": "diot",
+      "domainPrefix": "ddgcc2nm2i",
+      "requestTimeEpoch": 1720777575918,
+      "requestId": "2fbb3b01-3e22-48bc-bd3f-10a712087bfb",
+      "identity": {
+        "cognitoIdentityPoolId": null,
+        "accountId": null,
+        "cognitoIdentityId": null,
+        "caller": null,
+        "sourceIp": "196.1.1.6",
+        "principalOrgId": null,
+        "accessKey": null,
+        "cognitoAuthenticationType": null,
+        "cognitoAuthenticationProvider": null,
+        "userArn": null,
+        "userAgent": "PostmanRuntime/7.39.0",
+        "user": null
+      },
+      "domainName": "ddgcc2nm2i.execute-api.ap-south-1.amazonaws.com",
+      "deploymentId": "pdwkbo",
+      "apiId": "ddgcc2nm2i"
+    },
+    "body": "{\"device_id\": 1, \"device_name\": \"RPI\", \"sensor_data\":{\"temperature\": 45, \"humidity\": 60}}",
+    "isBase64Encoded": false
+  }
+  
